@@ -80,7 +80,7 @@ class SvgUri extends Component{
   }
 
   componentWillReceiveProps (nextProps){
-      // NV PATCH
+    // NV Patch
     if (nextProps.svgXmlData && this.props.svgXmlData !== nextProps.svgXmlData) {
         this.setState({
             svgXmlData: nextProps.svgXmlData
